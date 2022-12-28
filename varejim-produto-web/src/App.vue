@@ -1,4 +1,18 @@
-<script setup lang="ts">
+<template>
+  <header></header>
+
+  <main>
+    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  </main>
+
+  <footer></footer>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
+
+<!-- <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
 </script>
@@ -88,4 +102,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->
